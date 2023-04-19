@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfcfc;
+    color: #000000;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Logo */
+nav div ul li img{
+    height: 150px;
+    width: 200px;
+    padding: 0 8%;
+    margin: 15px 7px;
+}
+/* Menu Bars */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+li:hover{
+    font-weight: 900;
+    text-decoration: underline;
+}
+nav div ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+/* Button */
+button{
+    background-color: #9553d2;
+    color: #ffffff;
+    padding: 8px 20px ;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #9553d2;
+    border: 2px solid #000000;
+}
+/* Main Hero Section */
+/* Left-Section */
+section{
+    display: flex;
+}
+.left-section{
+    width: 50%;
+}
+.left-section h1{
+    font-size: 50px;
+    margin-left: 15px;
+    font-weight: 900;
+}
+.left-section h1 span{
+    color: #9c5bd8;
+    font-weight: 600;
+}
+.left-section p{
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.left-section button{
+    margin-top: 70px;
+    margin-left: 25px;
+}
+/* Right-Section */
+.right-section img{
+    height: 350px;
+    width: 650px;
+}
+
